@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-28T01:22:13.101Z" agent="Mozilla/5.0 (Linux; Android 4.0.4; Galaxy Nexus Build/IMM76B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.76 Mobile Safari/537.36" etag="bmhk-NfY1IwKIc5XXaEF" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-30T06:17:59.165Z" agent="Mozilla/5.0 (Linux; Android 4.0.4; Galaxy Nexus Build/IMM76B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.76 Mobile Safari/537.36" etag="AjSMkzH6PlsZ9evE-zCB" version="20.6.0" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
-    <mxGraphModel dx="1908" dy="1149" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1908" dy="1124" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -364,14 +364,23 @@
         <mxCell id="rp41pU6Lp5PeINNC2eLt-1781" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF33FF;" parent="1" source="jjRvRhtBeI7m9lWVmqTS-1886" target="rp41pU6Lp5PeINNC2eLt-1779" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="8gxu4bKodEJMxLtZMivw-1782" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;strokeColor=#FF33FF;sketch=0;" edge="1" parent="1" source="jjRvRhtBeI7m9lWVmqTS-1886" target="8gxu4bKodEJMxLtZMivw-1779">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8gxu4bKodEJMxLtZMivw-1783" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;strokeColor=#FF33FF;sketch=0;" edge="1" parent="1" source="jjRvRhtBeI7m9lWVmqTS-1886" target="8gxu4bKodEJMxLtZMivw-1780">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8gxu4bKodEJMxLtZMivw-1784" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;strokeColor=#FF33FF;sketch=0;" edge="1" parent="1" source="jjRvRhtBeI7m9lWVmqTS-1886" target="8gxu4bKodEJMxLtZMivw-1781">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="jjRvRhtBeI7m9lWVmqTS-1886" value="&lt;pre style=&quot;font-family: 宋体, monospace; font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;&quot;&gt;产量统计&lt;/span&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#e1d5e7;fontFamily=Helvetica;fontSize=14;align=center;spacing=5;fontStyle=1;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
-          <mxGeometry x="441" y="205" width="150" height="60" as="geometry" />
+          <mxGeometry x="446" y="233" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jjRvRhtBeI7m9lWVmqTS-1888" value="&lt;pre style=&quot;font-family: 宋体, monospace; font-size: 12px;&quot;&gt;&lt;pre style=&quot;font-family: 宋体, monospace; font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;&quot;&gt;产量统计&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#E1D5E7;fontFamily=Helvetica;fontSize=12;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="538" y="85" width="150" height="38" as="geometry" />
+          <mxGeometry x="585" y="64" width="150" height="38" as="geometry" />
         </mxCell>
         <mxCell id="jjRvRhtBeI7m9lWVmqTS-1889" value="&lt;pre style=&quot;font-family: 宋体, monospace; font-size: 12px;&quot;&gt;&lt;pre style=&quot;font-family: 宋体, monospace; font-size: 9.8pt;&quot;&gt;&lt;pre style=&quot;font-family: 宋体, monospace; font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;&quot;&gt;导出产量统计&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#E1D5E7;fontFamily=Helvetica;fontSize=12;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="591" y="139" width="150" height="38" as="geometry" />
+          <mxGeometry x="618" y="118" width="150" height="38" as="geometry" />
         </mxCell>
         <mxCell id="pPnTXxyB4lJogzWkyIYR-1781" value="员工绩效" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#48BCCE;fontFamily=Helvetica;fontSize=13;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=1;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
           <mxGeometry x="992" y="530" width="138" height="41" as="geometry" />
@@ -392,18 +401,18 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pPnTXxyB4lJogzWkyIYR-1789" value="&lt;pre style=&quot;font-family: 宋体, monospace; font-size: 12px;&quot;&gt;&lt;pre style=&quot;font-family: 宋体, monospace; font-size: 9.8pt;&quot;&gt;&lt;pre style=&quot;font-family: 宋体, monospace; font-size: 9.8pt;&quot;&gt;查看员工绩效&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#E1D5E7;fontFamily=Helvetica;fontSize=12;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="408" y="94" width="150" height="38" as="geometry" />
+          <mxGeometry x="477" y="102" width="150" height="38" as="geometry" />
         </mxCell>
         <mxCell id="rp41pU6Lp5PeINNC2eLt-1779" value="&lt;pre style=&quot;font-family: 宋体, monospace; font-size: 12px;&quot;&gt;&lt;pre style=&quot;font-family: 宋体, monospace; font-size: 9.8pt;&quot;&gt;&lt;pre style=&quot;font-family: 宋体, monospace; font-size: 9.8pt;&quot;&gt;&lt;pre style=&quot;font-family: 宋体, monospace; font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;&quot;&gt;根据班次或时间周期进行产量统计&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#E1D5E7;fontFamily=Helvetica;fontSize=12;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="264" y="143" width="150" height="38" as="geometry" />
+          <mxGeometry x="399" y="52" width="150" height="38" as="geometry" />
         </mxCell>
-        <mxCell id="AfjaSKW1U2af6IyQSpT1-1781" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;strokeColor=#1699D3;fontColor=#FFFFFF;strokeWidth=1;" edge="1" parent="1" source="rp41pU6Lp5PeINNC2eLt-1783" target="rp41pU6Lp5PeINNC2eLt-1788">
+        <mxCell id="AfjaSKW1U2af6IyQSpT1-1781" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;strokeColor=#1699D3;fontColor=#FFFFFF;strokeWidth=1;" parent="1" source="rp41pU6Lp5PeINNC2eLt-1783" target="rp41pU6Lp5PeINNC2eLt-1788" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AfjaSKW1U2af6IyQSpT1-1782" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;strokeColor=#1699D3;fontColor=#FFFFFF;strokeWidth=1;" edge="1" parent="1" source="rp41pU6Lp5PeINNC2eLt-1783" target="rp41pU6Lp5PeINNC2eLt-1790">
+        <mxCell id="AfjaSKW1U2af6IyQSpT1-1782" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;strokeColor=#1699D3;fontColor=#FFFFFF;strokeWidth=1;" parent="1" source="rp41pU6Lp5PeINNC2eLt-1783" target="rp41pU6Lp5PeINNC2eLt-1790" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AfjaSKW1U2af6IyQSpT1-1783" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;strokeColor=#1699D3;fontColor=#FFFFFF;strokeWidth=1;" edge="1" parent="1" source="rp41pU6Lp5PeINNC2eLt-1783" target="rp41pU6Lp5PeINNC2eLt-1789">
+        <mxCell id="AfjaSKW1U2af6IyQSpT1-1783" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;strokeColor=#1699D3;fontColor=#FFFFFF;strokeWidth=1;" parent="1" source="rp41pU6Lp5PeINNC2eLt-1783" target="rp41pU6Lp5PeINNC2eLt-1789" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rp41pU6Lp5PeINNC2eLt-1783" value="&lt;pre style=&quot;font-family: 宋体, monospace; font-size: 12px;&quot;&gt;报表&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#dae8fc;fontFamily=Helvetica;fontSize=12;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;fontColor=#000000;" parent="1" vertex="1">
@@ -499,11 +508,20 @@
         <mxCell id="rp41pU6Lp5PeINNC2eLt-1824" value="&lt;pre style=&quot;font-family: 宋体, monospace; font-size: 12px;&quot;&gt;&lt;pre style=&quot;font-size: 9.8pt; font-family: 宋体, monospace;&quot;&gt;查询班次状态记录表格&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#f08e81;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
           <mxGeometry x="-321" y="240" width="150" height="38" as="geometry" />
         </mxCell>
-        <mxCell id="AfjaSKW1U2af6IyQSpT1-1780" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#1699D3;strokeWidth=1;fontSize=13;fontColor=#FFFFFF;" edge="1" parent="1" source="rp41pU6Lp5PeINNC2eLt-1783" target="rp41pU6Lp5PeINNC2eLt-1787">
+        <mxCell id="AfjaSKW1U2af6IyQSpT1-1780" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#1699D3;strokeWidth=1;fontSize=13;fontColor=#FFFFFF;" parent="1" source="rp41pU6Lp5PeINNC2eLt-1783" target="rp41pU6Lp5PeINNC2eLt-1787" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="125.6586294416245" y="140" as="sourcePoint" />
             <mxPoint x="191.84746192893408" y="-4" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="8gxu4bKodEJMxLtZMivw-1779" value="&lt;pre style=&quot;font-family: 宋体, monospace; font-size: 12px;&quot;&gt;&lt;pre style=&quot;font-family: 宋体, monospace; font-size: 9.8pt;&quot;&gt;&lt;pre style=&quot;font-family: 宋体, monospace; font-size: 9.8pt;&quot;&gt;&lt;pre style=&quot;font-family: 宋体, monospace; font-size: 9pt;&quot;&gt;&lt;span style=&quot;&quot;&gt;可视化-设备近&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;n&lt;/span&gt;&lt;span style=&quot;&quot;&gt;小时产量&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#E1D5E7;fontFamily=Helvetica;fontSize=12;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="316" y="82" width="124" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="8gxu4bKodEJMxLtZMivw-1780" value="&lt;pre style=&quot;font-family: 宋体, monospace; font-size: 12px;&quot;&gt;&lt;pre style=&quot;font-family: 宋体, monospace; font-size: 9.8pt;&quot;&gt;&lt;pre style=&quot;font-family: 宋体, monospace; font-size: 9.8pt;&quot;&gt;&lt;pre style=&quot;font-family: 宋体, monospace; font-size: 9pt;&quot;&gt;&lt;span style=&quot;&quot;&gt;可视化-&lt;/span&gt;设备近&lt;span style=&quot;font-size: 9pt; background-color: initial; font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;n&lt;/span&gt;&lt;span style=&quot;font-size: 9pt; background-color: initial;&quot;&gt;天产量&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#E1D5E7;fontFamily=Helvetica;fontSize=12;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="132" width="124" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="8gxu4bKodEJMxLtZMivw-1781" value="&lt;pre style=&quot;font-family: 宋体, monospace; font-size: 12px;&quot;&gt;&lt;pre style=&quot;font-family: 宋体, monospace; font-size: 9.8pt;&quot;&gt;&lt;pre style=&quot;font-family: 宋体, monospace; font-size: 9.8pt;&quot;&gt;&lt;pre style=&quot;font-family: 宋体, monospace; font-size: 9pt;&quot;&gt;&lt;span style=&quot;&quot;&gt;可视化-&lt;/span&gt;设备当前班次产量&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#E1D5E7;fontFamily=Helvetica;fontSize=12;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="245" y="185.5" width="124" height="38" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
