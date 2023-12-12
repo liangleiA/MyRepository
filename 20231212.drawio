@@ -1,9 +1,60 @@
-<mxfile host="app.diagrams.net" modified="2023-12-12T14:06:24.744Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" version="22.1.7" etag="HCby1QgeqiXnnELRViis" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-12T14:34:10.291Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="aFZFkCBTHhFZDZm1aufF" version="22.1.7" type="github">
   <diagram name="第 1 页" id="YP9IGcSv9cFWR9gQrcCg">
-    <mxGraphModel>
+    <mxGraphModel dx="1656" dy="936" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="2ylMqdAOt4AS2Uey4YHg-1" value="workstationOutputAggregateJob" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-245" y="142" width="228" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="2ylMqdAOt4AS2Uey4YHg-2" value="TaskLet" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-245" y="275" width="228" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="2ylMqdAOt4AS2Uey4YHg-5" value="工位计算开始时间" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="68" y="275" width="228" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="2ylMqdAOt4AS2Uey4YHg-8" value="工位计算结束时间" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="394" width="228" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="2ylMqdAOt4AS2Uey4YHg-13" value="最后一笔计算数据的结束时间,如果没有则获取工位第一笔数据的ts时间" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="336" y="247" width="283" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="2ylMqdAOt4AS2Uey4YHg-14" value="tdengine最后一笔数据的结束时间" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="341" y="384" width="283" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="2ylMqdAOt4AS2Uey4YHg-15" value="根据开始结束时间获取计算时间点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="68" y="542" width="228" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="2ylMqdAOt4AS2Uey4YHg-16" value="0:10(计算开始时间)----1:00----2:00----3:00----3:40(计算结束时间)" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="341" y="534" width="310" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="2ylMqdAOt4AS2Uey4YHg-17" value="WorkstationOutputHourAggregateJob" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="797" width="228" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="2ylMqdAOt4AS2Uey4YHg-18" value="WorkstationOutputHourAggregateStep" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="924" width="228" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="2ylMqdAOt4AS2Uey4YHg-22" value="所有计算时间点按自然天分组" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="68" y="662.5" width="228" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="2ylMqdAOt4AS2Uey4YHg-23" value="2023/12/1&amp;nbsp; &amp;nbsp;0:10 ---1:00.......23:00&lt;br&gt;2023/12/2 0:00 ---1:00----23:00&lt;br&gt;2023/12/3 00:00-------3:40" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="343" y="649" width="310" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="2ylMqdAOt4AS2Uey4YHg-24" value="提交聚合任务需要的参数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="794" width="228" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="2ylMqdAOt4AS2Uey4YHg-25" value="工位: xxxxxx&lt;br&gt;计算天: 2023/12/1&lt;br&gt;计算时间:[0:10--1--23]" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="343" y="780.5" width="310" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="2ylMqdAOt4AS2Uey4YHg-26" value="失败重试也是以天为维度的切分数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="668" y="829.5" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="2ylMqdAOt4AS2Uey4YHg-27" value="Reader" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="68" y="924" width="228" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="2ylMqdAOt4AS2Uey4YHg-28" value="计算时间内所有数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="921" width="228" height="67" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
