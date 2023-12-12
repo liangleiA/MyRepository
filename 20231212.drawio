@@ -1,17 +1,29 @@
-<mxfile host="app.diagrams.net" modified="2023-12-12T15:37:44.688Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="liM2Ga97KcN7rWfqWzkp" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-12T16:14:18.289Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="x8mVcNj1cFFeIBg_qwEW" version="22.1.7" type="github">
   <diagram name="第 1 页" id="YP9IGcSv9cFWR9gQrcCg">
-    <mxGraphModel dx="1722" dy="985" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2332" dy="1440" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="2ylMqdAOt4AS2Uey4YHg-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2ylMqdAOt4AS2Uey4YHg-1" target="2ylMqdAOt4AS2Uey4YHg-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="2ylMqdAOt4AS2Uey4YHg-1" value="workstationOutputAggregateJob" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-245" y="142" width="228" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="2ylMqdAOt4AS2Uey4YHg-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2ylMqdAOt4AS2Uey4YHg-2" target="2ylMqdAOt4AS2Uey4YHg-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2ylMqdAOt4AS2Uey4YHg-2" value="TaskLet" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-245" y="275" width="228" height="67" as="geometry" />
         </mxCell>
+        <mxCell id="2ylMqdAOt4AS2Uey4YHg-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2ylMqdAOt4AS2Uey4YHg-5" target="2ylMqdAOt4AS2Uey4YHg-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="2ylMqdAOt4AS2Uey4YHg-5" value="工位计算开始时间" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="68" y="275" width="228" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="2ylMqdAOt4AS2Uey4YHg-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2ylMqdAOt4AS2Uey4YHg-8" target="2ylMqdAOt4AS2Uey4YHg-31">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2ylMqdAOt4AS2Uey4YHg-8" value="工位计算结束时间" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="394" width="228" height="67" as="geometry" />
@@ -22,17 +34,29 @@
         <mxCell id="2ylMqdAOt4AS2Uey4YHg-14" value="tdengine最后一笔数据的结束时间" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
           <mxGeometry x="341" y="384" width="283" height="104" as="geometry" />
         </mxCell>
+        <mxCell id="2ylMqdAOt4AS2Uey4YHg-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2ylMqdAOt4AS2Uey4YHg-15" target="2ylMqdAOt4AS2Uey4YHg-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="2ylMqdAOt4AS2Uey4YHg-15" value="根据开始结束时间获取计算时间点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="68" y="542" width="228" height="67" as="geometry" />
         </mxCell>
         <mxCell id="2ylMqdAOt4AS2Uey4YHg-16" value="0:10(计算开始时间)----1:00----2:00----3:00----3:40(计算结束时间)" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
           <mxGeometry x="341" y="534" width="310" height="94" as="geometry" />
         </mxCell>
+        <mxCell id="2ylMqdAOt4AS2Uey4YHg-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2ylMqdAOt4AS2Uey4YHg-17" target="2ylMqdAOt4AS2Uey4YHg-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="2ylMqdAOt4AS2Uey4YHg-17" value="WorkstationOutputHourAggregateJob" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-250" y="797" width="228" height="67" as="geometry" />
+          <mxGeometry x="-239" y="871.5" width="228" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="2ylMqdAOt4AS2Uey4YHg-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2ylMqdAOt4AS2Uey4YHg-18" target="2ylMqdAOt4AS2Uey4YHg-27">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2ylMqdAOt4AS2Uey4YHg-18" value="WorkstationOutputHourAggregateStep" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-250" y="924" width="228" height="67" as="geometry" />
+          <mxGeometry x="-239" y="998.5" width="228" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="2ylMqdAOt4AS2Uey4YHg-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2ylMqdAOt4AS2Uey4YHg-22" target="2ylMqdAOt4AS2Uey4YHg-34">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2ylMqdAOt4AS2Uey4YHg-22" value="所有计算时间点按自然天分组" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="68" y="662.5" width="228" height="67" as="geometry" />
@@ -40,32 +64,123 @@
         <mxCell id="2ylMqdAOt4AS2Uey4YHg-23" value="2023/12/1&amp;nbsp; &amp;nbsp;0:10 ---1:00.......23:00&lt;br&gt;2023/12/2 0:00 ---1:00----23:00&lt;br&gt;2023/12/3 00:00-------3:40" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
           <mxGeometry x="343" y="649" width="310" height="94" as="geometry" />
         </mxCell>
+        <mxCell id="2ylMqdAOt4AS2Uey4YHg-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2ylMqdAOt4AS2Uey4YHg-24" target="2ylMqdAOt4AS2Uey4YHg-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="2ylMqdAOt4AS2Uey4YHg-24" value="提交聚合任务需要的参数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="794" width="228" height="67" as="geometry" />
+          <mxGeometry x="81" y="868.5" width="228" height="67" as="geometry" />
         </mxCell>
         <mxCell id="2ylMqdAOt4AS2Uey4YHg-25" value="工位: xxxx&lt;br&gt;计算时间: [&lt;br&gt;2023/12/1&amp;nbsp; &amp;nbsp;0:10 ---1:00.......23:00&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;2023/12/2 0:00 ---1:00----23:00&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;2023/12/3 00:00-------3:40&lt;br&gt;]" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
-          <mxGeometry x="343" y="780.5" width="310" height="94" as="geometry" />
+          <mxGeometry x="354" y="855" width="310" height="94" as="geometry" />
         </mxCell>
-        <mxCell id="2ylMqdAOt4AS2Uey4YHg-26" value="出现异常重启时会重新计算需要计算的时间, &lt;br&gt;并从那个异常的时间开始继续执行" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="662" y="800" width="249" height="41" as="geometry" />
+        <mxCell id="2ylMqdAOt4AS2Uey4YHg-26" value="出现异常重启时 下次调用会从异常的时间开始,重新计算需要计算的时间, &lt;br&gt;继续执行" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="598" y="874.5" width="400" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="2ylMqdAOt4AS2Uey4YHg-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2ylMqdAOt4AS2Uey4YHg-27" target="2ylMqdAOt4AS2Uey4YHg-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2ylMqdAOt4AS2Uey4YHg-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2ylMqdAOt4AS2Uey4YHg-27" target="2ylMqdAOt4AS2Uey4YHg-37">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2ylMqdAOt4AS2Uey4YHg-27" value="Reader" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="68" y="924" width="177" height="63" as="geometry" />
+          <mxGeometry x="79" y="998.5" width="177" height="63" as="geometry" />
         </mxCell>
-        <mxCell id="2ylMqdAOt4AS2Uey4YHg-28" value="计算时间内所有数据,根据小时分组求和" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="314" y="925" width="175" height="61" as="geometry" />
+        <mxCell id="2ylMqdAOt4AS2Uey4YHg-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2ylMqdAOt4AS2Uey4YHg-28" target="2ylMqdAOt4AS2Uey4YHg-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2ylMqdAOt4AS2Uey4YHg-28" value="遍历计算日中,计算时间查询区间的数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="325" y="999.5" width="175" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="2ylMqdAOt4AS2Uey4YHg-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2ylMqdAOt4AS2Uey4YHg-29" target="2ylMqdAOt4AS2Uey4YHg-30">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2ylMqdAOt4AS2Uey4YHg-29" value="获取小时的时间区间分组" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="539" y="924.5" width="160" height="62" as="geometry" />
+          <mxGeometry x="550" y="999" width="160" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="2ylMqdAOt4AS2Uey4YHg-30" value="包装整小时数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="731" y="923.5" width="142" height="62.5" as="geometry" />
+        <mxCell id="2ylMqdAOt4AS2Uey4YHg-30" value="包装DTO" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="758" y="998" width="142" height="62.5" as="geometry" />
+        </mxCell>
+        <mxCell id="2ylMqdAOt4AS2Uey4YHg-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2ylMqdAOt4AS2Uey4YHg-31" target="2ylMqdAOt4AS2Uey4YHg-15">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2ylMqdAOt4AS2Uey4YHg-31" value="开始结束时间相等,无需计算" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-169" y="437" width="106" height="80" as="geometry" />
         </mxCell>
         <mxCell id="2ylMqdAOt4AS2Uey4YHg-33" value="获取jobParameter中的工位,单独计算,否则计算所有" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="657.5" y="267" width="289" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="2ylMqdAOt4AS2Uey4YHg-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2ylMqdAOt4AS2Uey4YHg-34" target="2ylMqdAOt4AS2Uey4YHg-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2ylMqdAOt4AS2Uey4YHg-34" value="是否存在运行的执行器" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-232" y="732" width="106" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2ylMqdAOt4AS2Uey4YHg-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2ylMqdAOt4AS2Uey4YHg-36" target="2ylMqdAOt4AS2Uey4YHg-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2ylMqdAOt4AS2Uey4YHg-36" value="已经存在相同的parameter参数实例" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-79" y="735" width="106" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2ylMqdAOt4AS2Uey4YHg-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2ylMqdAOt4AS2Uey4YHg-37" target="2ylMqdAOt4AS2Uey4YHg-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2ylMqdAOt4AS2Uey4YHg-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2ylMqdAOt4AS2Uey4YHg-37" target="2ylMqdAOt4AS2Uey4YHg-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2ylMqdAOt4AS2Uey4YHg-37" value="Processor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="79" y="1091" width="177" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="2ylMqdAOt4AS2Uey4YHg-38" value="包装转换产量聚合数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="329" y="1091.25" width="142" height="62.5" as="geometry" />
+        </mxCell>
+        <mxCell id="2ylMqdAOt4AS2Uey4YHg-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2ylMqdAOt4AS2Uey4YHg-39" target="2ylMqdAOt4AS2Uey4YHg-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2ylMqdAOt4AS2Uey4YHg-39" value="Writer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="79" y="1193" width="177" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="2ylMqdAOt4AS2Uey4YHg-40" value="2023/12/1&amp;nbsp; 0:10-1&amp;nbsp; &amp;nbsp;-- 10 -- 班次- 班次类型&lt;br&gt;2023/12/1&amp;nbsp; 9-10&amp;nbsp; &amp;nbsp; -- 10&lt;br&gt;2023/12/1&amp;nbsp; 11:12&amp;nbsp; &amp;nbsp;-- 4&lt;br&gt;2023/12/1&amp;nbsp; 23-0&amp;nbsp; &amp;nbsp;-- 4&lt;br&gt;2023/12/3&amp;nbsp; 3-3:40&amp;nbsp; &amp;nbsp;-- 20&lt;br&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="550" y="1075.5" width="367" height="92.5" as="geometry" />
+        </mxCell>
+        <mxCell id="2ylMqdAOt4AS2Uey4YHg-41" value="开始时间整点数据批量保存" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="553" y="1185.5" width="142" height="62.5" as="geometry" />
+        </mxCell>
+        <mxCell id="2ylMqdAOt4AS2Uey4YHg-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2ylMqdAOt4AS2Uey4YHg-43" target="2ylMqdAOt4AS2Uey4YHg-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2ylMqdAOt4AS2Uey4YHg-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2ylMqdAOt4AS2Uey4YHg-43" target="2ylMqdAOt4AS2Uey4YHg-44">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="408" y="1312" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2ylMqdAOt4AS2Uey4YHg-43" value="分组开始时间非整点数据" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="341" y="1175" width="134" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="2ylMqdAOt4AS2Uey4YHg-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2ylMqdAOt4AS2Uey4YHg-44" target="2ylMqdAOt4AS2Uey4YHg-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2ylMqdAOt4AS2Uey4YHg-44" value="非整点数据查询结束时间是计算开始时间的数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="1280.75" width="142" height="62.5" as="geometry" />
+        </mxCell>
+        <mxCell id="2ylMqdAOt4AS2Uey4YHg-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2ylMqdAOt4AS2Uey4YHg-45" target="2ylMqdAOt4AS2Uey4YHg-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2ylMqdAOt4AS2Uey4YHg-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2ylMqdAOt4AS2Uey4YHg-45" target="2ylMqdAOt4AS2Uey4YHg-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2ylMqdAOt4AS2Uey4YHg-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2ylMqdAOt4AS2Uey4YHg-45" target="2ylMqdAOt4AS2Uey4YHg-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2ylMqdAOt4AS2Uey4YHg-45" value="存在数据" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="724" y="1268" width="115" height="84.5" as="geometry" />
+        </mxCell>
+        <mxCell id="2ylMqdAOt4AS2Uey4YHg-46" value="累加更新产量值" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="881" y="1248" width="142" height="62.5" as="geometry" />
+        </mxCell>
+        <mxCell id="2ylMqdAOt4AS2Uey4YHg-47" value="保存数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="878" y="1330" width="142" height="62.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
