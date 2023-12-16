@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-16T06:43:14.832Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="ZoKMZV2yzTtvYKIwudyf" version="22.1.11" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-12-16T08:12:56.995Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="AGGXPt-mqE-QnqDoah45" version="22.1.11" type="github" pages="2">
   <diagram name="第 1 页" id="YP9IGcSv9cFWR9gQrcCg">
     <mxGraphModel dx="1656" dy="936" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -199,14 +199,23 @@
         <mxCell id="tF5fLoMybf5-CX41N9DC-1" value="工位已经计算的最大值, 没有则获取td数据的第一笔数据ts时间" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="90" width="330" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="RmmewUJPFq5J-dbQwJQ2-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lhVufkb5R01ldWsWIX-z-1" target="ljg2pr51BrMUnMVQLPAd-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="lhVufkb5R01ldWsWIX-z-1" value="计算结束时间" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="110" y="210" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ljg2pr51BrMUnMVQLPAd-1" value="当前时间" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="210" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="RmmewUJPFq5J-dbQwJQ2-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ljg2pr51BrMUnMVQLPAd-3" target="RmmewUJPFq5J-dbQwJQ2-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ljg2pr51BrMUnMVQLPAd-3" value="工位-开始-结束时间发起任务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="110" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RmmewUJPFq5J-dbQwJQ2-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RmmewUJPFq5J-dbQwJQ2-1" target="RmmewUJPFq5J-dbQwJQ2-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RmmewUJPFq5J-dbQwJQ2-1" value="Reader" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="110" y="450" width="120" height="60" as="geometry" />
@@ -214,8 +223,29 @@
         <mxCell id="RmmewUJPFq5J-dbQwJQ2-2" value="开始结束时间切分为n天&lt;br&gt;1---&amp;gt;1-24&lt;br&gt;2----&amp;gt; 0-24&lt;br&gt;3----&amp;gt;0-24&lt;br&gt;4------&amp;gt;24----9&lt;br&gt;5----&amp;gt; 9----10" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="320" width="240" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="RmmewUJPFq5J-dbQwJQ2-3" value="根据时间区间读取td数据.读取到的数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="RmmewUJPFq5J-dbQwJQ2-3" value="根据时间区间读取td数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RmmewUJPFq5J-dbQwJQ2-10" value="Processor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RmmewUJPFq5J-dbQwJQ2-11" value="计算区间内的班次时间点,并加入开始结束时间,组成所有时间点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="540" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RmmewUJPFq5J-dbQwJQ2-15" value="每2个时间去切数据,补每个时间区间内数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RmmewUJPFq5J-dbQwJQ2-18" value="得到的数据集的第一笔ts一定是开始时间,最后一笔ts一定是结束时间" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="295" y="608" width="380" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RmmewUJPFq5J-dbQwJQ2-19" value="根据工位,第一笔数据的时间,去库中查是否存在持续到该时间的状态数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="720" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RmmewUJPFq5J-dbQwJQ2-20" value="如果状态相等,则更新该数据持续时间" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RmmewUJPFq5J-dbQwJQ2-21" value="跳过第一笔数据,插入其他数据. 此时最后一笔数据就是下次的计算时间点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="800" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
