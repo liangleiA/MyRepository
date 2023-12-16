@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-16T08:12:56.995Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="AGGXPt-mqE-QnqDoah45" version="22.1.11" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-12-16T08:19:22.561Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="LTIkXDNzz6iCIAarR-xb" version="22.1.11" type="github" pages="2">
   <diagram name="第 1 页" id="YP9IGcSv9cFWR9gQrcCg">
     <mxGraphModel dx="1656" dy="936" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -186,7 +186,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="SqHprphCNaoR9hpUox1n" name="第 2 页">
-    <mxGraphModel dx="698" dy="520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="761" dy="567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -217,6 +217,9 @@
         <mxCell id="RmmewUJPFq5J-dbQwJQ2-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RmmewUJPFq5J-dbQwJQ2-1" target="RmmewUJPFq5J-dbQwJQ2-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="RmmewUJPFq5J-dbQwJQ2-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RmmewUJPFq5J-dbQwJQ2-1" target="RmmewUJPFq5J-dbQwJQ2-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="RmmewUJPFq5J-dbQwJQ2-1" value="Reader" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="110" y="450" width="120" height="60" as="geometry" />
         </mxCell>
@@ -226,8 +229,14 @@
         <mxCell id="RmmewUJPFq5J-dbQwJQ2-3" value="根据时间区间读取td数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="450" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="RmmewUJPFq5J-dbQwJQ2-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RmmewUJPFq5J-dbQwJQ2-10" target="RmmewUJPFq5J-dbQwJQ2-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="RmmewUJPFq5J-dbQwJQ2-10" value="Processor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="100" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RmmewUJPFq5J-dbQwJQ2-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RmmewUJPFq5J-dbQwJQ2-11" target="RmmewUJPFq5J-dbQwJQ2-15">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RmmewUJPFq5J-dbQwJQ2-11" value="计算区间内的班次时间点,并加入开始结束时间,组成所有时间点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="540" width="140" height="60" as="geometry" />
@@ -236,16 +245,28 @@
           <mxGeometry x="340" y="630" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RmmewUJPFq5J-dbQwJQ2-18" value="得到的数据集的第一笔ts一定是开始时间,最后一笔ts一定是结束时间" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="295" y="608" width="380" height="30" as="geometry" />
+          <mxGeometry x="440" y="630" width="380" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RmmewUJPFq5J-dbQwJQ2-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RmmewUJPFq5J-dbQwJQ2-19" target="RmmewUJPFq5J-dbQwJQ2-20">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RmmewUJPFq5J-dbQwJQ2-19" value="根据工位,第一笔数据的时间,去库中查是否存在持续到该时间的状态数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="720" width="140" height="60" as="geometry" />
+          <mxGeometry x="340" y="770" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RmmewUJPFq5J-dbQwJQ2-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RmmewUJPFq5J-dbQwJQ2-20" target="RmmewUJPFq5J-dbQwJQ2-21">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RmmewUJPFq5J-dbQwJQ2-20" value="如果状态相等,则更新该数据持续时间" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="530" y="720" width="120" height="60" as="geometry" />
+          <mxGeometry x="530" y="770" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RmmewUJPFq5J-dbQwJQ2-21" value="跳过第一笔数据,插入其他数据. 此时最后一笔数据就是下次的计算时间点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="530" y="800" width="120" height="60" as="geometry" />
+          <mxGeometry x="530" y="850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RmmewUJPFq5J-dbQwJQ2-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RmmewUJPFq5J-dbQwJQ2-27" target="RmmewUJPFq5J-dbQwJQ2-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RmmewUJPFq5J-dbQwJQ2-27" value="Writer&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="770" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
