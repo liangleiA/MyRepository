@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-25T09:43:32.180Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="t0ndvrCpGYJfY6dz3ZDJ" version="23.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-25T09:43:53.490Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="X3y9TnG1hFkafNhcRfQx" version="23.0.1" type="github">
   <diagram name="第 1 页" id="E18fr_xLtNIzuxxG0h2K">
-    <mxGraphModel dx="1745" dy="893" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1543" dy="759" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -164,9 +164,6 @@
         </mxCell>
         <mxCell id="7quchR3Gx-VnwM5mNdl0-82" value="TextFileWriter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1254" y="487" width="138" height="35" as="geometry" />
-        </mxCell>
-        <mxCell id="7quchR3Gx-VnwM5mNdl0-91" value="Job parameter&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="789" y="545.5" width="604" height="61.5" as="geometry" />
         </mxCell>
         <mxCell id="7quchR3Gx-VnwM5mNdl0-92" value="工位" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="532" y="508" width="42" height="26" as="geometry" />
