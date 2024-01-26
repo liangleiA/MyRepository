@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-26T01:58:16.426Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="rqENiukx5ADljR3qQRr_" version="23.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-26T01:58:40.775Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="mjsEAXmNQSJqFE6ctMoW" version="23.0.1" type="github">
   <diagram name="第 1 页" id="E18fr_xLtNIzuxxG0h2K">
     <mxGraphModel dx="1543" dy="759" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -170,6 +170,9 @@
         </mxCell>
         <mxCell id="txzD4mxf4CzZGojGZKTO-9" value="JobLaunchGetway" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="681" y="678" width="138" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="txzD4mxf4CzZGojGZKTO-11" value="" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;size=0.11458333333333333;" vertex="1" parent="1">
+          <mxGeometry x="877" y="821" width="367" height="192" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
