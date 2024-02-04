@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-04T07:09:22.423Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="wFNoNXoUM0MJil2lpWDv" version="23.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-04T07:14:15.123Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="jg9E8DjcRhzUkRnCaTBG" version="23.0.2" type="github">
   <diagram name="第 1 页" id="KSwCcJYvpphRC8MJ0m5S">
     <mxGraphModel dx="1434" dy="1949" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -425,7 +425,7 @@
           <mxGeometry x="1260" y="660" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EhrkbCGMckrhQxVuz5_1-103" value="tb_file_config" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=0;strokeColor=default;fontSize=16;swimlaneFillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="990" y="-550" width="320" height="430" as="geometry" />
+          <mxGeometry x="990" y="-540" width="320" height="430" as="geometry" />
         </mxCell>
         <mxCell id="EhrkbCGMckrhQxVuz5_1-104" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;swimlaneFillColor=default;" vertex="1" parent="EhrkbCGMckrhQxVuz5_1-103">
           <mxGeometry y="30" width="320" height="30" as="geometry" />
@@ -552,7 +552,7 @@
             <mxRectangle width="71" height="20" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EhrkbCGMckrhQxVuz5_1-133" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;swimlaneFillColor=default;" vertex="1" parent="EhrkbCGMckrhQxVuz5_1-131">
+        <mxCell id="EhrkbCGMckrhQxVuz5_1-133" value="file_type 文件类型" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;swimlaneFillColor=default;" vertex="1" parent="EhrkbCGMckrhQxVuz5_1-131">
           <mxGeometry x="71" width="249" height="20" as="geometry">
             <mxRectangle width="249" height="20" as="alternateBounds" />
           </mxGeometry>
@@ -565,7 +565,7 @@
             <mxRectangle width="71" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EhrkbCGMckrhQxVuz5_1-136" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;swimlaneFillColor=default;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;" vertex="1" parent="EhrkbCGMckrhQxVuz5_1-134">
+        <mxCell id="EhrkbCGMckrhQxVuz5_1-136" value="file_suffix 文件后缀" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=1;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;swimlaneFillColor=default;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;" vertex="1" parent="EhrkbCGMckrhQxVuz5_1-134">
           <mxGeometry x="71" width="249" height="30" as="geometry">
             <mxRectangle width="249" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -578,7 +578,7 @@
             <mxRectangle width="71" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EhrkbCGMckrhQxVuz5_1-139" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;swimlaneFillColor=default;" vertex="1" parent="EhrkbCGMckrhQxVuz5_1-137">
+        <mxCell id="EhrkbCGMckrhQxVuz5_1-139" value="file_path 文件路径" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;swimlaneFillColor=default;" vertex="1" parent="EhrkbCGMckrhQxVuz5_1-137">
           <mxGeometry x="71" width="249" height="30" as="geometry">
             <mxRectangle width="249" height="30" as="alternateBounds" />
           </mxGeometry>
