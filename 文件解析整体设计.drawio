@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-04T03:11:21.835Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="8ZbFFvUn-AsC5knZBxhs" version="23.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-04T03:21:38.427Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="G4NTdwRsILZltYMOb1nX" version="23.0.2" type="github">
   <diagram name="第 1 页" id="KSwCcJYvpphRC8MJ0m5S">
     <mxGraphModel dx="1259" dy="1746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -81,6 +81,12 @@
         <mxCell id="mfhwkr1gqfcv5BpSvhRb-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="mfhwkr1gqfcv5BpSvhRb-35" target="mfhwkr1gqfcv5BpSvhRb-85" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="EhrkbCGMckrhQxVuz5_1-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mfhwkr1gqfcv5BpSvhRb-35" target="EhrkbCGMckrhQxVuz5_1-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EhrkbCGMckrhQxVuz5_1-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mfhwkr1gqfcv5BpSvhRb-35" target="EhrkbCGMckrhQxVuz5_1-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="mfhwkr1gqfcv5BpSvhRb-35" value="Rocket MQ" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="657" y="185" width="123" height="50" as="geometry" />
         </mxCell>
@@ -125,11 +131,11 @@
         <mxCell id="mfhwkr1gqfcv5BpSvhRb-70" value="轮询拉取" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="440" y="10" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mfhwkr1gqfcv5BpSvhRb-74" value="文件解析配置是否应该脱离cps, 在manger进行配置" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="800" y="-110" width="290" height="30" as="geometry" />
+        <mxCell id="mfhwkr1gqfcv5BpSvhRb-74" value="文件解析配置是否应该脱离cps, 作为manager的功能" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="775" y="-110" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mfhwkr1gqfcv5BpSvhRb-81" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="900" y="40" width="330" height="285" as="geometry" />
+          <mxGeometry x="900" y="40" width="330" height="320" as="geometry" />
         </mxCell>
         <mxCell id="mfhwkr1gqfcv5BpSvhRb-83" value="CPS" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="907" y="45" width="50" height="30" as="geometry" />
@@ -151,6 +157,24 @@
         </mxCell>
         <mxCell id="mfhwkr1gqfcv5BpSvhRb-99" value="事务提交" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="720" y="440" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EhrkbCGMckrhQxVuz5_1-2" value="&lt;div class=&quot;lake-content&quot;&gt;返回指定sheet的 数据，按二维结构或合适的数据结构返回数据&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="82.5" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EhrkbCGMckrhQxVuz5_1-5" value="&lt;div class=&quot;lake-content&quot;&gt;pdf 提取文本返回&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="147.5" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EhrkbCGMckrhQxVuz5_1-6" value="txt/log/dfq" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="210" width="123" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="EhrkbCGMckrhQxVuz5_1-7" value="&lt;div class=&quot;lake-content&quot;&gt;直接返回文本结果&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="217.5" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EhrkbCGMckrhQxVuz5_1-9" value="sqlite/access" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="288" width="123" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="EhrkbCGMckrhQxVuz5_1-11" value="通过配置的sql返回结果" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1065" y="295.5" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
